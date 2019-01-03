@@ -18,18 +18,22 @@
 
 #page > header {
   grid-area: head;
-  background-color: #F4F4F4;
-  box-shadow: 1px 1px 3px 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0.2px 0.4px 5px 0.2px;
   border-radius: 5px;
 }
 
 #diet {
   display: block;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
   margin: 5px;
   outline:none;
   font-size: 13px;
+}
+
+#diet:hover {
+  background-color: #22B51D;
 }
 
 .dropdown-menu {
@@ -49,7 +53,7 @@ input[type='radio']:after {
        content: '';
        display: inline-block;
        visibility: visible;
-       border: 1.5px solid grey;
+       border: 1px solid grey;
        box-shadow: 0.2px 0.2px 0.2px 0.2px;
 }
 
@@ -60,7 +64,7 @@ input[type='radio']:checked:after {
        top: -2px;
        left: -1px;
        position: relative;
-       background-color: #2CE90F;
+       background-color: #22B51D;
        content: '';
        display: inline-block;
        visibility: visible;
@@ -71,10 +75,10 @@ input[type='radio']:checked:after {
 
 #page > nav {
   grid-area: nav;
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
     font-family: 'Times New Roman', cursive;
   margin: 7px;
-  box-shadow: 1px 1px 3px 4px;
+  box-shadow: 0.2px 0.4px 5px 0.2px;
   border-radius: 5px;
 }
 
@@ -83,9 +87,9 @@ input[type='radio']:checked:after {
 }
 
 #page > footer {
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
   grid-area: foot;
-  box-shadow: 1px 1px 3px 4px;
+  box-shadow: 0.2px 0.4px 5px 0.2px;
   border-radius: 5px;
   margin: 7px;
 
